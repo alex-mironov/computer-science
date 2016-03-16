@@ -18,7 +18,11 @@ import binarySearch from './binary-search';
 // var sortedItems = insertionSort([1, -1, 0, 10, 4]);
 // console.log(sortedItems);
 
-var items = ["a","b","c","d","e","f","g","h","i","j"];
-console.log(binarySearch(items, "i"));
-console.log(binarySearch(items, "b"));
-console.log(binarySearch(items, "l"));
+import mergeSort from './merge-sort';
+var items = ["y", "z", "r","n","a","d","u","f","x","h","s","j", "i", "g"];
+console.log(mergeSort(items));
+
+// var items = ["a","b","c","d","e","f","g","h","i","j"];
+// console.log(binarySearch(items, "i"));
+// console.log(binarySearch(items, "b"));
+// console.log(binarySearch(items, "l"));
